@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/funnyquotes/static/css/main.e8419ee6.chunk.css",
-    "main.js": "/funnyquotes/static/js/main.62f9b9a7.chunk.js",
-    "main.js.map": "/funnyquotes/static/js/main.62f9b9a7.chunk.js.map",
+    "main.js": "/funnyquotes/static/js/main.0465e836.chunk.js",
+    "main.js.map": "/funnyquotes/static/js/main.0465e836.chunk.js.map",
     "runtime-main.js": "/funnyquotes/static/js/runtime-main.ec209800.js",
     "runtime-main.js.map": "/funnyquotes/static/js/runtime-main.ec209800.js.map",
-    "static/js/2.d97319d0.chunk.js": "/funnyquotes/static/js/2.d97319d0.chunk.js",
-    "static/js/2.d97319d0.chunk.js.map": "/funnyquotes/static/js/2.d97319d0.chunk.js.map",
+    "static/js/2.9b359f96.chunk.js": "/funnyquotes/static/js/2.9b359f96.chunk.js",
+    "static/js/2.9b359f96.chunk.js.map": "/funnyquotes/static/js/2.9b359f96.chunk.js.map",
     "index.html": "/funnyquotes/index.html",
-    "precache-manifest.4d966bb92dd1ee646fc16ea025d2eca0.js": "/funnyquotes/precache-manifest.4d966bb92dd1ee646fc16ea025d2eca0.js",
+    "precache-manifest.551a8b552584d90803cc88bd25bb8167.js": "/funnyquotes/precache-manifest.551a8b552584d90803cc88bd25bb8167.js",
     "service-worker.js": "/funnyquotes/service-worker.js",
     "static/css/main.e8419ee6.chunk.css.map": "/funnyquotes/static/css/main.e8419ee6.chunk.css.map",
-    "static/js/2.d97319d0.chunk.js.LICENSE.txt": "/funnyquotes/static/js/2.d97319d0.chunk.js.LICENSE.txt"
+    "static/js/2.9b359f96.chunk.js.LICENSE.txt": "/funnyquotes/static/js/2.9b359f96.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec209800.js",
-    "static/js/2.d97319d0.chunk.js",
+    "static/js/2.9b359f96.chunk.js",
     "static/css/main.e8419ee6.chunk.css",
-    "static/js/main.62f9b9a7.chunk.js"
+    "static/js/main.0465e836.chunk.js"
   ]
 }
