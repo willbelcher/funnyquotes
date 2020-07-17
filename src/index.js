@@ -24,13 +24,17 @@ class Generator extends React.Component {
 
     this.state = {quote: 'Click the button to generate a quote!'}
 
-    tf.loadLayersModel("https://raw.githubusercontent.com/WBelchman/my_quote_generator/master/js_model/model.json").then(
-              model => { this.model = model}
-    )
+    // tf.loadLayersModel("https://raw.githubusercontent.com/WBelchman/my_quote_generator/master/js_model/model.json").then(
+    //           model => { this.model = model}
+    // )
+    this.load_model().catch()
 
     this.seq2word = this.swap(token_data)
 
     this.generate_quote = this.generate_quote.bind(this)
+  }
+  async load_model(){
+    this.model = await tf.loadLayersModel("https://raw.githubusercontent.com/WBelchman/my_quote_generator/master/js_model/model.json")
   }
   swap(dict){
     var ret = {};
@@ -52,9 +56,9 @@ class Generator extends React.Component {
       pred_dist = this.model.predict(model_input)
       
       pred_dist = tf.squeeze(pred_dist, 0)
-      console.log(pred_dist.arraySync())
+      //console.log(pred_dist.arraySync())
       pred_token = tf.multinomial(pred_dist, 1).arraySync()[0]
-      console.log(pred_token)
+      //console.log(pred_token)
       
       model_input = tf.expandDims(pred_token, 0)
 
