@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78aa69c1560d54113e24eb2b6383c8f4",
+    "revision": "e73e43a7e0863838d5f17be8a107f449",
     "url": "/funnyquotes/index.html"
   },
   {
-    "revision": "43cb427dd79769291f0b",
+    "revision": "fdf5bfda61d1cd03163d",
     "url": "/funnyquotes/static/css/main.e8419ee6.chunk.css"
   },
   {
-    "revision": "fe6084101cb09a3700d3",
-    "url": "/funnyquotes/static/js/2.2f2de71d.chunk.js"
+    "revision": "21cb8cd26c4166bfea88",
+    "url": "/funnyquotes/static/js/2.0af32192.chunk.js"
   },
   {
     "revision": "9f3ece4be77bc30b04966fe84f4cf2e7",
-    "url": "/funnyquotes/static/js/2.2f2de71d.chunk.js.LICENSE.txt"
+    "url": "/funnyquotes/static/js/2.0af32192.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43cb427dd79769291f0b",
-    "url": "/funnyquotes/static/js/main.a3d1dd24.chunk.js"
+    "revision": "fdf5bfda61d1cd03163d",
+    "url": "/funnyquotes/static/js/main.2405c6ba.chunk.js"
   },
   {
     "revision": "b6ea1cc3a7698c29cf38",
