@@ -39,17 +39,6 @@ class Generator extends React.Component {
     }
     return ret;
   }
-  sample(probs) {
-    const sum = probs.reduce((a, b) => a + b, 0)
-    if (sum <= 0) throw Error('probs must sum to a value greater than zero')
-    const normalized = probs.map(prob => prob / sum)
-    const sample = Math.random()
-    let total = 0
-    for (let i = 0; i < normalized.length; i++) {
-        total += normalized[i]
-        if (sample < total) return i
-    }
-}
   generate_quote(){
     let model_input = tf.expandDims([20], 0)
     let text = []
@@ -65,6 +54,7 @@ class Generator extends React.Component {
       pred_dist = tf.squeeze(pred_dist, 0)
       console.log(pred_dist.arraySync())
       pred_token = tf.multinomial(pred_dist, 1).arraySync()[0]
+      console.log(pred_token)
       
       model_input = tf.expandDims(pred_token, 0)
 
