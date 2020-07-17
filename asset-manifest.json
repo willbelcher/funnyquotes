@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/funnyquotes/static/css/main.e8419ee6.chunk.css",
-    "main.js": "/funnyquotes/static/js/main.88f90d9c.chunk.js",
-    "main.js.map": "/funnyquotes/static/js/main.88f90d9c.chunk.js.map",
+    "main.js": "/funnyquotes/static/js/main.7f52b7f9.chunk.js",
+    "main.js.map": "/funnyquotes/static/js/main.7f52b7f9.chunk.js.map",
     "runtime-main.js": "/funnyquotes/static/js/runtime-main.ec209800.js",
     "runtime-main.js.map": "/funnyquotes/static/js/runtime-main.ec209800.js.map",
     "static/js/2.9b359f96.chunk.js": "/funnyquotes/static/js/2.9b359f96.chunk.js",
     "static/js/2.9b359f96.chunk.js.map": "/funnyquotes/static/js/2.9b359f96.chunk.js.map",
     "index.html": "/funnyquotes/index.html",
-    "precache-manifest.14c0c625c8e832b91f8cbeaa9fc4f348.js": "/funnyquotes/precache-manifest.14c0c625c8e832b91f8cbeaa9fc4f348.js",
+    "precache-manifest.ccc983216619f7fa8dd187a8bc0ab1da.js": "/funnyquotes/precache-manifest.ccc983216619f7fa8dd187a8bc0ab1da.js",
     "service-worker.js": "/funnyquotes/service-worker.js",
     "static/css/main.e8419ee6.chunk.css.map": "/funnyquotes/static/css/main.e8419ee6.chunk.css.map",
     "static/js/2.9b359f96.chunk.js.LICENSE.txt": "/funnyquotes/static/js/2.9b359f96.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ec209800.js",
     "static/js/2.9b359f96.chunk.js",
     "static/css/main.e8419ee6.chunk.css",
-    "static/js/main.88f90d9c.chunk.js"
+    "static/js/main.7f52b7f9.chunk.js"
   ]
 }
