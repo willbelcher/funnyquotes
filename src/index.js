@@ -22,10 +22,11 @@ class Generator extends React.Component {
   constructor(props){
     super(props)
 
-    this.state = {quote: 'Click the button to generate a quote!'}
+    this.state = {quote: 'Click the button to generate a quote!',
+                  model: false}
 
     tf.loadLayersModel("https://raw.githubusercontent.com/WBelchman/my_quote_generator/master/js_model/model.json").then(
-              model => { this.model = model}
+              model => this.setState({model: model})
     )
 
     this.seq2word = this.swap(token_data)
@@ -49,7 +50,7 @@ class Generator extends React.Component {
 
     
     for (let i = 0; i < 1000; i++){
-      pred_dist = this.model.predict(model_input)
+      pred_dist = this.state.model.predict(model_input)
       
       pred_dist = tf.squeeze(pred_dist, 0)
       //console.log(pred_dist.arraySync())
@@ -68,13 +69,13 @@ class Generator extends React.Component {
     }
 
     text = text.join('')
-    this.setState(state => ({quote: text}))
+    this.setState(state => ({quote: text, model: state.model}))
   }
   render(){
     return (
       <div>
-        <div className='textbox'>{ this.state.quote }</div>
-        <button onClick={ this.generate_quote }>Click Me</button>
+        <div className='textbox'>{ this.state.model ? this.state.quote : "Loading..." }</div>
+        { this.state.model ? <button onClick={ this.generate_quote }>Click Me</button> : null}
       </div>
     )
   }
