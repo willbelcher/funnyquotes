@@ -49,7 +49,7 @@ class Generator extends React.Component {
     let char
 
     
-    for (let i = 0; i < 1000; i++){
+    for (let i = 0; i < 300; i++){
       pred_dist = this.state.model.predict(model_input)
       
       pred_dist = tf.squeeze(pred_dist, 0)
@@ -63,9 +63,14 @@ class Generator extends React.Component {
       text.push(char)
 
       if (char === '.'){
-        break
+        if (text.length < 2){
+          i = 0
+          text = []
+        }
+        else {
+          break
+        }
       }
-      
     }
 
     text = text.join('')
