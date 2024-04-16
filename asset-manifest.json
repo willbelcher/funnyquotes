@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/funnyquotes/static/css/main.bab6bf5e.css",
-    "main.js": "/funnyquotes/static/js/main.39c53464.js",
+    "main.js": "/funnyquotes/static/js/main.c0c70eb2.js",
     "index.html": "/funnyquotes/index.html",
     "main.bab6bf5e.css.map": "/funnyquotes/static/css/main.bab6bf5e.css.map",
-    "main.39c53464.js.map": "/funnyquotes/static/js/main.39c53464.js.map"
+    "main.c0c70eb2.js.map": "/funnyquotes/static/js/main.c0c70eb2.js.map"
   },
   "entrypoints": [
     "static/css/main.bab6bf5e.css",
-    "static/js/main.39c53464.js"
+    "static/js/main.c0c70eb2.js"
   ]
 }
