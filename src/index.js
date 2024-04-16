@@ -25,7 +25,7 @@ class Generator extends React.Component {
     this.state = {quote: 'Click the button to generate a quote!',
                   model: false}
 
-    tf.loadLayersModel("https://raw.githubusercontent.com/WBelchman/my_quote_generator/master/js_model/model.json").then(
+    tf.loadLayersModel("https://raw.githubusercontent.com/willbelcher/my_quote_generator/master/js_model/model.json").then(
               model => this.setState({model: model})
     )
 
@@ -91,7 +91,6 @@ class Page extends React.Component {
     return (
       <div className="main">
         <h2>FunnyQuotes</h2>
-        <h4>Yeah we need a better title</h4>
         <Generator/>
       </div>
     )
